@@ -1,0 +1,8 @@
+node_modules
+README.md
+package-lock.json
+bin/
+obj/
+ThreadLearning.csproj
+ThreadLearning.csproj.user
+.vs

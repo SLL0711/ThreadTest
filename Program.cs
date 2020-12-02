@@ -6,6 +6,7 @@ using ThreadLearning.Th.设置线程优先级;
 using ThreadLearning.Th.线程安全;
 using ThreadLearning.Th.线程池;
 using ThreadLearning.Th.任务并行;
+using ThreadLearning.Th.并发集合;
 
 namespace ThreadLearning
 {
@@ -185,6 +186,25 @@ namespace ThreadLearning
             //Task3.Perform();
             //Task4.Perform();
             //Task5.Perform();
+            //Task6.Perform();
+            //Task7.Perform();
+            //Task8.Perform();
+            //Task9.Perform();
+            //Task10.Perform();
+            //Task11.Perform();
+            //Task12.Perform();
+            //Task14.Perform();
+            //Task15.Perform();
+
+            #endregion
+
+            #region 并发集合
+
+            //ConcurrentDic.Perform();
+            //ConcurrentQu.Perform();
+            //ConcurrentStack.Perform();
+            //ConcurrentBg.Perform();
+            BlockingColle.Perform();
 
             #endregion
 

@@ -36,6 +36,7 @@ namespace ThreadLearning.Th.任务并行
             WriteLine($"Is threadpool thread:{CurrentThread.IsThreadPoolThread}");
             Sleep(TimeSpan.FromSeconds(2));
             ThreadId = CurrentThread.ManagedThreadId;
+
             return $"Thread id:{ThreadId}";
         }
 

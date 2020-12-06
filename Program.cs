@@ -7,6 +7,8 @@ using ThreadLearning.Th.线程安全;
 using ThreadLearning.Th.线程池;
 using ThreadLearning.Th.任务并行;
 using ThreadLearning.Th.并发集合;
+using ThreadLearning.Th.PLINQ;
+using ThreadLearning.Th.AsyncIO;
 
 namespace ThreadLearning
 {
@@ -204,7 +206,24 @@ namespace ThreadLearning
             //ConcurrentQu.Perform();
             //ConcurrentStack.Perform();
             //ConcurrentBg.Perform();
-            BlockingColle.Perform();
+            //BlockingColle.Perform();
+
+            #endregion
+
+            #region Paraller并行类
+
+            //ParallerT.Perform();
+            //ParallelLinq.Perform();
+            //ParallelT2.Perform();
+            //ParalelException.Perform();     
+
+            #endregion
+
+            #region 异步IO
+
+            //AsyncIO1.Perform();
+            //AsyncIO2.Perform();
+            AsyncIO3.Perform();
 
             #endregion
 

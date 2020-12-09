@@ -9,6 +9,7 @@ using ThreadLearning.Th.任务并行;
 using ThreadLearning.Th.并发集合;
 using ThreadLearning.Th.PLINQ;
 using ThreadLearning.Th.AsyncIO;
+using ThreadLearning.Th.并行编程模式;
 
 namespace ThreadLearning
 {
@@ -223,7 +224,13 @@ namespace ThreadLearning
 
             //AsyncIO1.Perform();
             //AsyncIO2.Perform();
-            AsyncIO3.Perform();
+            //AsyncIO3.Perform();
+
+            #endregion
+
+            #region 并行编程模式
+
+            T1.Perform();
 
             #endregion
 

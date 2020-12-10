@@ -230,7 +230,8 @@ namespace ThreadLearning
 
             #region 并行编程模式
 
-            T1.Perform();
+            //T1.Perform();
+            T2.Perform();
 
             #endregion
 
